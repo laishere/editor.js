@@ -119,7 +119,9 @@ export abstract class PopoverAbstract<Nodes extends PopoverNodes = PopoverNodes>
     this.nodes.popover.classList.add(css.popoverOpened);
 
     if (this.search !== undefined) {
-      this.search.focus();
+      requestAnimationFrame(() => {
+        this.search?.focus();
+      });
     }
   }
 

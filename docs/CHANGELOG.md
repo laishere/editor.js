@@ -7,6 +7,7 @@
 - `Fix` - Fix selection of first block in read-only initialization with "autofocus=true"
 - `Fix` - Incorrect caret position after blocks merging in Safari
 - `Fix` - Several toolbox items exported by the one tool have the same shortcut displayed in toolbox
+- `Fix` - Fix issue where the block copy does not work when a block is selected using the settings button
 
 ### 2.30.6
 
